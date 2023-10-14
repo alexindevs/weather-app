@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Request, Response } from "express"; // Import Request and Response types from Express
 
-const OWM_API = process.env.API_KEY || "a73d102412b04751a4b132328231210";
+const OWM_API = process.env.WEATHER_API_KEY || "";
 
 export const getWeatherToday = async (req: Request, res: Response) => {
     const lat = req.params.lat;
