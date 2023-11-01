@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 // Define the MongoDB connection URL
 const dbURL = "mongodb://127.0.0.1:27017/weather-app";
 
+// Don't wanna lose my streak lol
+
 // Establish the MongoDB connection
 mongoose
   .connect(dbURL)
